@@ -2,6 +2,3 @@ language: C
 script: make dep && make && make test
 compiler:
 	-gcc
-dep:
-	sudo apt-get update
-	sudo apt-get install check
