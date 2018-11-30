@@ -5,5 +5,4 @@ compiler:
 
 os:
    	- linux
-script: 
-	make dep && make && make test
+script: make dep && make && make test
