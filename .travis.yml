@@ -1,5 +1,7 @@
 language: C
 
+build: make
+
 compiler:
 	-gcc
 
