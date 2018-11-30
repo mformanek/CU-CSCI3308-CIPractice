@@ -1,8 +1,7 @@
 language: c
 
-compiler:
-	- gcc
-
-os:
-   	- linux
 script: make dep && make && make test
+
+compiler: -gcc
+
+os: linux
