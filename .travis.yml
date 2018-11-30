@@ -1,11 +1,9 @@
 language: C
 
-build: make
-
 compiler:
-	-gcc
+	- gcc
 
 os:
-   	-linux
+   	- linux
 script: 
 	make dep && make && make test
